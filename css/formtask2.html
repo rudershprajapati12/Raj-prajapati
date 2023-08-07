@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            width: 420px;
+            height: 520px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+        }
+        .container .circle{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            border-radius: 50%;
+        }
+        .circle:first-child{
+            background: linear-gradient(blue,red);
+            left: -80px;
+            top: -80px;
+        }
+        .circle:last-child{
+            background: linear-gradient(green,blue);
+            right: -30px;
+            bottom: -80px;
+        }
+        form{
+            height: 500px;
+            width: 420px;
+            background-color: rgba(255, 255, 255, 0.13);
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+            border-radius: 10px;
+             border: 2px solid 
+            rgba(255, 255, 255, 0.1); 
+            box-shadow: 0 0 40px;
+        }
+        form *{
+            color: #ffff;
+            letter-spacing: 0.4px;
+            
+            
+        }
+        form h2{
+            font-size: 32px;
+            
+            line-height: 42px;
+            text-align: center;
+        }
+    </style>
+        
+    
+</head>
+<body>
+    <div class="container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <form >
+        <h2>Login Here</h2>
+
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,345 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fa {
+    color: aquamarine;
+    margin-right: 10px;
+}
+
+a {
+
+    font-size: 17px;
+    padding: 25px 25px;
+
+    text-decoration: none;
+    /* color: white; */
+
+}
+
+#logo {
+    color: #000;
+}
+
+.header {
+    background: #000;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 30px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.a1 {
+    width: 250px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+
+.navbar {
+
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.sear {
+    width: 400px;
+    height: 50px;
+    margin-left: 100px;
+    padding-left: 10px;
+    border-color: 2px gray solid;
+}
+
+
+.search {
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    background: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+
+::placeholder {
+    font-size: 17px;
+
+}
+
+.srh {
+    background: transparent;
+    /* text-align: center; */
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.srch {
+    color: white;
+}
+
+.nav-1 {
+    text-align: center;
+    transform: translate(500px, -110px);
+    position: absolute;
+    left: 40px;
+    height: 30px;
+}
+
+.nav-1 h1 {
+    color: #000;
+}
+
+.nav-1 span {
+    background: black;
+    padding: 0 15px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.h1 :first-child {
+    color: white;
+    transform: translate(10px, 0px);
+}
+
+h1 a {
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 2em;
+    position: relative;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+i.fa.fa-shopping-bag.top_logo_agile_bag {
+    position: absolute;
+    font-size: 18px;
+    top: 70px;
+    right: 14px;
+    color: #2fdab8;
+    left: 360px;
+    top: 104px;
+}
+
+
+
+.third-nav {
+
+    height: 70px;
+    background: #000;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.short{
+    height: 70px;
+    position: relative;
+}
+.srt{
+    transform: translate(0px, 25px);
+}
+.itms{
+    list-style-type: none;
+   
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+.short:hover .itms{
+    display: block;
+}
+.itm1{
+    border-bottom: 2px solid gray;
+    display: block;
+    background: transparent;
+    box-shadow: 0 0 1px black;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    transition: 0.2s;
+}
+.itm1:hover{
+    color: white;
+    background: rgb(93, 100, 97);
+}
+
+
+
+
+.nav-2 {
+    list-style-type: none;
+    margin: 0 50px 0 0;
+    padding: 0;
+
+    /* width: 100%; */
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    /* margin-inline-start: 10px; */
+}
+
+li .a2::after {
+
+    height: 4px;
+    content: "";
+    width: 0%;
+    position: absolute;
+    /* display: flex; */
+    left: 0%;
+    bottom: 0%;
+    background: aquamarine;
+    opacity: 0;
+    transition: .60s;
+}
+
+li .a2:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+.a2 {
+    position: relative;
+}
+
+.men-women-wear-slide {
+    height: 280px;
+    width: 650px;
+    display: flex;
+    padding: 30px 0 0 30px;
+    background: rgb(239, 232, 34);
+    position: absolute;
+     top: 230px;
+     /* left: 500px; */
+     
+     opacity: 0;
+}
+.item1:hover .men-women-wear-slide{
+    display: flex;
+    
+    opacity: 1;
+}
+
+.image {
+    height: 222px;
+    width: 259px;
+    /* border: 2px solid black; */
+    position: relative;
+    overflow: hidden;
+}
+
+.image img {
+    height: 220px;
+    object-fit: contain;
+
+}
+
+.image::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* height: 250px; */
+    background: rgba(0, 0, 0, 0.2);
+    top: 100%;
+    right: 100%;
+    transition: 1s;
+}
+
+.image:hover::after {
+    top: 0;
+    right: 0;
+}
+
+.image::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* height: 250px; */
+    background: rgba(0, 0, 0, 0.2);
+    bottom: 100%;
+    left: 100%;
+    transition: 1s;
+}
+
+.image:hover::before {
+    bottom: 0;
+    left: 0;
+}
+
+.col1 {
+    width: 160px;
+    margin-left: 30px;
+}
+
+.col2 {
+    width: 160px;
+
+
+}
+
+.slide {
+    text-decoration: none;
+    color: white;
+}
+
+.item2 {
+    height: 33px;
+    display: flex;
+    /* text-decoration: none; */
+    color: white;
+
+}
+.car{
+
+    width: 200px;
+    background: aquamarine;
+    height: 72px;
+    border: none;
+    transform: translate(120px,0px);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crt{
+    background: transparent;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+    height:50px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    /* transform: translate(0,-5px); */
+}
+
+.cart{
+    width: 50px;
+    height: 40px;
+    color: black;
+    transform: translate(2px, -12px);
+    /* text-align: center; */
+}

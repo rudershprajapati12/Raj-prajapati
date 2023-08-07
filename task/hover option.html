@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main {
+            width: 100%;
+            display: flex;
+            border: 2px solid orange;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            height: 400px;
+            width: 250px;
+
+            margin: 80px auto;
+            position: relative;
+            box-shadow: 0 0 20px #000;
+            /* flex-grow: 1; */
+        }
+
+        .front,
+        .back {
+            height: 250px;
+            width: 250px;
+            background: lightblue;
+            border: 2px solid red;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: 1s;
+            backface-visibility: hidden;
+          
+          
+
+
+        }
+        img{
+            /* object-fit: cover; */
+            object-fit: contain;
+        }
+
+        .m1 {
+            height: 250px;
+            width: 250px;
+            border: 2px solid yellow;
+            background: lightblue;
+            position: absolute;
+
+        }
+
+        .info {
+            height: 150px;
+            width: 250px;
+            border: 2px solid black;
+            position: absolute;
+            bottom: 0%;
+            color: lightcoral;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .front {
+            transform: rotateY(180deg);
+        }
+
+        .back {
+            transform: rotateY(0deg);
+        }
+
+        .m1:hover .front {
+            transform: rotateY(0deg);
+        }
+
+        .m1:hover .back {
+            transform: rotateY(180deg);
+            background: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="product">
+            <div class="m1">
+                <div class="front">
+                    <img src="m1.jpg" alt="" height="100%" width="100%">
+                </div>
+
+                <div class="back">
+                    <img src="m1.jpg" alt="" height="100%" width="100%">
+                </div>
+            </div>
+            <div class="info">Formal Blue Shirt</div>
+        </div>
+
+
+        <div class="product">
+            <div class="m1">
+                <div class="front">
+                    <img src="m2.jpg" alt="" height="100%" width="100%">
+                </div>
+
+                <div class="back">
+                    <img src="m2.jpg" alt="" height="100%" width="100%">
+                </div>
+            </div>
+            <div class="info">Gabi Full Sleeve Sweatshirt</div>
+        </div>
+
+
+        <div class="product">
+            <div class="m1">
+                <div class="front">
+                    <img src="m3.jpg" alt="" height="100%" width="100%">
+                </div>
+
+                <div class="back">
+                    <img src="m3.jpg" alt="" height="100%" width="100%">
+                </div>
+            </div>
+            <div class="info">Dark Blue Track Pants</div>
+        </div>
+
+
+        <div class="product">
+            <div class="m1">
+                <div class="front">
+                    <img src="m4.jpg" alt="" height="100%" width="100%">
+                </div>
+
+                <div class="back">
+                    <img src="m4.jpg" alt="" height="100%" width="100%">
+                </div>
+            </div>
+            <div class="info">Round Neck Black T-Shirt</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

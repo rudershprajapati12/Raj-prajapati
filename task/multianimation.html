@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .w{
+        height: 400px;
+        width: 400px;
+        border: 13px solid transparent;
+        margin:100px auto;
+        border-top: 13px solid rgb(197, 9, 66);
+        border-radius: 50%;
+        animation: animate 2s linear infinite	;
+    }
+    
+    .x{
+        height: 300px;
+        width: 300px;
+        border: 13px solid transparent;
+        border-top: 13px solid rgb(88, 151, 88);
+        margin: 35px auto;
+        border-radius: 50%;
+        animation: animate2 3s linear infinite;
+        
+    }
+    
+    .y{
+        height: 200px;
+        width: 200px;
+        border: 13px solid transparent;
+        border-top:13px solid rgb(8, 204, 139);
+        margin:35px auto;
+        border-radius: 50%;
+        animation: animate 2s linear infinite;
+        
+
+    }
+    .z{
+        height: 100px;
+        width: 100px;
+        border: 13px solid transparent;
+        border-top:13px solid rgb(37, 180, 159);
+        margin:35px auto;
+        border-radius: 50%;
+        animation: animate2 2s linear infinite;
+        
+    }
+    @keyframes animate{
+        from{transform: rotate(0deg);}
+        to{transform: rotate(360deg);}
+    }
+    @keyframes animate2{
+        from{transform: rotate(0deg);}
+        to{transform: rotate(-720deg);}
+    }
+</style>
+</head>
+<body>
+<div class="w">
+    <div class="x">
+        <div class="y">
+            <div class="z"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

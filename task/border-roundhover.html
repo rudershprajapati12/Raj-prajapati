@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100%;
+            background: linear-gradient(lightcoral,lightgreen);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        .box{
+            height: 350px;
+            width: 300px;
+            background: lightblue;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: 180px auto;
+            overflow: hidden;
+            position: relative;
+            box-sizing: border-box;
+            transition: 10s;
+
+        }
+        .box::before{
+            content: "";
+            height: 600px;
+            width: 600px;
+            background: conic-gradient(rgb(11, 229, 18) 0deg,rgb(11, 229, 18) 90deg, black 110deg, black 180deg, green 180deg, green 270deg, red 290deg, red 360deg);
+            position: absolute;
+            left:-160px;
+            top: -130px;
+            transform: rotate(-360deg);
+            transition: 5s;
+        }
+        .box::after{
+            content: "";
+            height:320px;
+            width: 270px;
+            position: absolute;
+            background-color:lightgoldenrodyellow;
+
+            
+               
+        }
+        .box:hover::before{
+            transform: rotate(500deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+</body>
+</html>

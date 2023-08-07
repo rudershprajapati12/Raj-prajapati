@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .a{
+            height: 200px;
+            width: 200px;
+            background: conic-gradient(lightblue,lightgreen,lightcoral);
+            border-radius: 50%;
+            margin: 100px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 1s;
+        }
+         .fa{
+            font-size: 150px;
+            transform: rotate(0);
+            transition: 1s;
+         }
+         .a:hover{
+            transform: rotate(360deg);
+         }
+         .a:hover .fa{
+            transform: rotate(360deg) scale(0);
+           
+         }
+
+    </style>
+</head>
+<body>
+    <div class="a">
+        <i class="fa fa-star" aria-hidden="true"></i>
+    </div>
+</body>
+</html>

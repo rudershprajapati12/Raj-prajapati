@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.container{
+    height: 700px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(40deg,rgb(230, 61, 61),rgb(47, 47, 136) 70%,rgb(219, 68, 68));
+    margin: auto;
+    justify-content: center;
+}
+.table{
+    height: 660px;
+    width: 910px;
+    border-radius: 18px;
+    background: linear-gradient(160deg,lightcoral,navy 40%);
+    position: relative;
+    overflow: hidden;
+}
+.navbar{
+    height: 28px;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    top: 38px;
+    color: white;
+    z-index: 1;
+}
+.logo{
+    margin-left: 55px;
+    font-size: 15px;
+}
+.navbar ul{
+    display: flex;
+    margin-left: 355px;
+    list-style-type: none;
+}
+.navbar li{
+    margin-left: 48px;
+}
+.navbar button{
+    width: 75px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 28px;
+    margin-left: 48px;
+    background: transparent;
+}
+.part{
+    width: 300px;
+    height: 380px;
+    top: 26%;
+    left: 87px;
+    color: white;
+    line-height: 40px;
+    position: absolute;
+}
+.fa-money{
+    margin-right: 10px;
+    color: green;
+}
+.money{
+    color: lightgreen;
+}
+.part h1{
+    font-size: 48px;
+}
+.part .para{
+    line-height: 20px;
+    top: 190px;
+    position: absolute;
+}
+
+.s-dbutton{
+    top: 260px;
+    position: absolute;
+}
+.s-dbutton button{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background: rgb(69, 69, 205);
+    border-radius: 18px;
+    border: none;
+    font-weight: bold;
+}
+.s-dbutton a{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.fa-download{
+    margin-left: 8px;
+}
+
+.here{
+    font-size: 18px;
+    line-height: normal;
+    position: absolute;
+    bottom: 0;
+}
+.here a{
+    text-decoration: underline;
+    color: rgb(179, 13, 46);
+    font-weight: bold;
+    font-size: 18px;
+}
+.circle2-part{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: absolute;
+    top: -9%;
+    left: 131%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid lightcoral;
+}
+
+.circle2{
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(rgb(36, 90, 189), rgb(171, 7, 40));
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.circle2-part::before{
+    content: "";
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(-45deg);
+    border: 5px solid rgb(248, 112, 112);
+    border-left: 5px solid rgb(109, 13, 198);
+    box-sizing: border-box;
+}
+.card2{
+    backdrop-filter: blur(3px);
+    height: 250px;
+    width: 380px;
+    border-radius: 15px;
+    background: rgba(115, 30, 236, 0.5);
+    transform: rotate(15deg);
+    box-shadow: 0 0 5px rgb(242, 121, 121);
+    position: absolute;
+    bottom: 60%;
+    right: 50%;
+}
+
+.card2 img{
+    height: 40px;
+    width: 50px;
+    object-fit: contain;
+    top: 18px;
+    left: 18px;
+    position: absolute;
+}
+
+.card2 h1{
+    font-size: 26px;
+    top: 18px;
+    right: 7%;
+    position: absolute;
+}
+
+.card2 h3{
+    top: 40%;
+    left: 18px;
+    position: absolute;
+}
+
+.card2 .inf1{
+    font-size: 9px;
+    color: white;
+    bottom: 22%;
+    left: 18px;
+    position: absolute;
+}
+
+.card2 .hldr1{
+    bottom: 10%;
+    left: 15px;
+    position: absolute;
+}
+
+.card2 .inf2{
+    font-size: 9px;
+    bottom: 22%;
+    left: 80%;
+    position: absolute;
+}
+
+.card2 .dt1{
+    bottom: 10%;
+    left: 80%;
+    position: absolute;
+}
+
+
+.card1{
+    backdrop-filter: blur(5px);
+    height: 200px;
+    width: 300px;
+    bottom: 30%;
+    right: 62%;
+    border-radius: 15px;
+    background: rgba(121, 43, 230, 0.5);
+    transform: rotate(-15deg);
+    box-shadow: 0 0 5px lightcoral;
+    position: absolute;
+}
+
+.card1 img{
+    height: 30px;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    object-fit: contain;
+    position: absolute;
+}
+
+.card1 h1{
+    font-size: 21px;
+    top: 18px;
+    right: 7%;
+    position: absolute;
+}
+
+.card1 h3{
+    font-size: 15px;
+    top: 40%;
+    left: 18px;
+    position: absolute;
+}
+
+.card1 .inf1{
+    font-size: 10px;
+    color: white;
+    bottom: 22%;
+    left: 18px;
+    position: absolute;
+}
+.card1 .dt1{
+    font-size: 15px;
+    bottom: 10%;
+    left: 80%;
+    position: absolute;
+}
+
+.card1 .hldr1{
+    font-size: 15px;
+    bottom: 10%;
+    left: 15px;
+    position: absolute;
+}
+
+.card1 .inf2{
+    font-size: 9px;
+    bottom: 22%;
+    left: 80%;
+    position: absolute;
+}
+.circle1{
+    height: 130px;
+    width: 130px;
+    background: linear-gradient(rgb(105, 48, 59),rgb(63, 63, 183));
+    border-radius: 50%;
+    top: -25%;
+    right: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.circle1::before{
+    content: "";
+    border-radius: 50%;
+    
+    background: rgb(190, 84, 84);
+    opacity: 0.2;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+ .circle2 .circle-under{
+    height: 58px;
+    width: 58px;
+    background: linear-gradient(rgb(23, 23, 101) 50%,rgb(75, 26, 26));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 41%;
+    left: 35%;}  
+
+
+
+ .circle2 .circle-under::before
+{
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background: rgb(129, 44, 150);
+    border-radius: 50%;
+} 
+
+/* 
+.circle2 .crl{
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(cornflowerblue,crimson);
+    border-radius: 50%;
+    position: absolute;
+    left: 36%;
+    top: 10px;
+} */
+
+
+
+
+.circle3{
+    height: 130px;
+    width: 130px;
+    background: linear-gradient(rgb(31, 94, 211),rgb(173, 81, 99));
+    filter: blur(10px);
+    /* box-shadow: 0 0 30px rgb(115, 224, 53); */
+    border-radius: 50%;
+    left: 118%;
+    bottom: -27px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+} 
+
+
+.circle4{
+    height: 130px;
+    width: 130px;
+    background: rgb(52, 205, 108);
+    /* box-shadow: 0 0 28px rgb(20, 20, 126) inset; */
+    filter: blur(38px);
+    border-radius: 50%;
+    left: 173%;
+    top: -34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+} 
+
+
+
+
+
+.crcl1{
+    height: 35px;
+    width: 35px;
+    background: linear-gradient(to right,rgb(59, 99, 174),rgb(208, 74, 74));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 133%;
+    top: -19%;
+} 
+
+ .crcl1::before
+{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: rgb(13, 13, 90);
+    border-radius: 50%;
+} 
+
+
+.crcl2{
+    height: 35px;
+    width: 35px;
+    background: linear-gradient(150deg,lightblue,rgb(31, 31, 125) 70%);
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 0 0 1px white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -10px;
+    left: 99%;
+} 
+
+ .crcl2::before
+{
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: navy;
+    border-radius: 50%;
+} 
+
+
+
+
+/* .cls1{
+    height: 10px;
+    width: 10px;
+    background: linear-gradient(cornflowerblue,lightcoral);
+    border-radius: 50%;
+    position: absolute;
+    left: 35px;
+    top: 38%;
+}
+
+
+.cls2{
+    height: 15px;
+    width: 15px;
+    background: linear-gradient(cornflowerblue,lightcoral);
+    border-radius: 50%;
+    position: absolute;
+    left: 51%;
+    top: 33%;
+} */
+
+
+/* .cls3{
+    height: 15px;
+    width: 15px;
+    background: linear-gradient(210deg,lightcoral,navy);
+    border-radius: 50%;
+    box-shadow: 0 0 1px white;
+    position: absolute;
+    left: 46%;
+    bottom: 26%;
+}
+
+
+.cls4{
+    height: 10px;
+    width: 10px;
+    background: linear-gradient(120deg,navy 30%,lightcoral);
+    border-radius: 50%;
+    box-shadow: 0 0 1px white;
+    z-index: 1;
+    position: absolute;
+    left: 77%;
+    top: 18%; 
+} */
+
+ 

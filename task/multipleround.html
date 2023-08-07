@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x{
+            height: 400px;
+            width: 400px;
+            position: relative;
+            margin: 150px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        .y::before{
+            content: "";
+            height: 400px;
+            width: 400px;
+            background:rgba(90, 200, 237, 0.2);
+            position: absolute;
+            border-radius: 50%;
+            top: 0;
+            left: 0;
+            transform: scale(0);
+            transition: 1s;
+        }
+        .y::after{
+            content: "";
+            height: 300px;
+            width: 300px;
+            background:rgba(60, 100, 113, 0.4);
+            position: absolute;
+            border-radius: 50%;
+            transform: scale(0);
+            transition: 1s;
+        }
+
+        .y{
+            height: 400px;
+            width: 400px;
+            position: relative;
+            margin: 150px auto;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            z-index: 1;
+            
+        }
+      .x::before{
+            content: "";
+            height: 200px;
+            width: 200px;
+            background:rgba(168, 220, 238, 0.6);
+            position: absolute;
+            transform:scale(0);
+            border-radius: 50%;
+            transition: 1s;
+            
+        } 
+      .x::after{
+            content: "";
+            height: 100px;
+            width: 100px;
+          background: rgb(123, 204, 231);
+            border-radius: 50%;
+            transition: 1s;
+            position: absolute;
+            
+        }
+       :hover::before{
+            transform: scale(1);
+        }
+       :hover::after{
+            transform: scale(1);
+        }
+   </style>
+</head>
+<body>
+<div class="x">
+    <div class="y">
+    </div>
+</div>
+</body>
+</html>

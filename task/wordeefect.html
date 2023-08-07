@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100%;
+            font-size: 80px;
+            position: relative;
+            text-align: center;
+            line-height: 100vh;
+
+        }
+        .x::first-letter{
+            color: blue;
+        }
+        .y{
+            height: 80px;
+            width:600px;
+            background: white;
+            margin: auto;
+            position: absolute;
+            bottom: 43%;
+            left: 35%;
+            transition: 8s;
+            /* animation: raj 2s linear infinite; */
+
+        }
+      /* @keyframes raj{
+        
+      } */
+      body:hover .y{
+        left: 70%;
+            border-left: 2px solid rgb(111, 109, 109);
+      }
+    </style>
+</head>
+<body>
+   <div class="x"> Hello Everyone,</div>
+    <div class="y"></div>
+</body>
+</html>

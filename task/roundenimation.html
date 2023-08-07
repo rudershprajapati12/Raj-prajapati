@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100%;
+            background: linear-gradient( red,blue);
+        }
+        .x{
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+          margin: 150px auto;
+          
+        }
+        .y::before{
+            content: "";
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            border-radius: 50%;
+            background: rgb(112, 164, 164);
+            top: 0;
+            left: 0;
+            animation: raj 2s linear infinite;
+        }
+        .y::after{
+            content: "";
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            border-radius: 50%;
+            background: rgb(131, 174, 174);
+            animation: raj 2s linear infinite;
+            
+        
+        }
+        .y{
+            width: 400px;
+            height: 400px;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: 150px auto;
+            z-index: 1;
+            
+            
+        }
+        .x::before{
+            content: "";
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            border-radius: 50%;
+            background: rgb(131, 172, 172);
+            animation: raj 2s linear infinite;
+
+        }
+        .x::after{
+            content: "";
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            background:lightblue;
+            
+            
+            
+        }
+        @keyframes raj{
+            from{
+                transform: scale(0);
+            }
+            to{
+                transform: scale(1);
+                opacity: 0;
+            }
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        <div class="y"></div>
+    </div>
+</body>
+</html>

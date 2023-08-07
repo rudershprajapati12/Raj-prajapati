@@ -1,0 +1,499 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+
+body {
+    background: lightsalmon;
+    height: 80vh;
+}
+
+.con {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+
+}
+
+.main-card1 {
+    background: rgb(155, 151, 151);
+    height: 650px;
+    width: 330px;
+    /* margin: 35px auto; */
+    border-radius: 20px;
+    text-align: center;
+}
+
+.nav {
+    height: 80px;
+    width: 330px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+.nav1 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -5px -5px 12px white;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+a {
+
+    font-size: 15px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    top: 15px;
+    left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nav2 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -5px -5px 12px white;
+    position: absolute;
+    top: 0;
+    left: 262px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.music-card {
+    height: 200px;
+    width: 200px;
+    /* background: lightblue; */
+    border: 2px solid pink;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgb(93, 60, 60), -5px -5px 15px white;
+
+
+}
+
+img {
+    border-radius: 50%;
+    background: cover;
+    animation: raj 2s linear infinite;
+}
+
+.music-name {
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.m-name {
+    font-size: 30px;
+}
+
+.music-last {
+    height: 173px;
+    width: 330px;
+    /* border: 2px solid black; */
+    position: absolute;
+    animation: round 2s linear infinite;
+}
+
+.start {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+
+}
+
+.end {
+    position: absolute;
+    top: 5px;
+    left: 285px;
+}
+
+.line1 {
+    height: 4px;
+    width: 130px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.line2 {
+    height: 4px;
+    width: 160px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.658) inset;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+}
+
+.point {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 60%;
+    border: 5px solid white;
+    position: absolute;
+    top: 23px;
+    left: 135px;
+}
+
+.x {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.815);
+    border: 2px solid rgb(111, 36, 48);
+    box-shadow: 5px 5px 12px black, -5px -5px 12px white;
+
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.y {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(9, 4, 103, 0.815);
+    border: 2px solid rgb(111, 36, 48);
+    box-shadow: 5px 5px 12px black, -5px -5px 12px white;
+
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 130px;
+}
+
+.z {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.815);
+    border: 2px solid rgb(111, 36, 48);
+    box-shadow: 5px 5px 12px black, -5px -5px 12px white;
+
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+@keyframes raj{
+    0%{ 
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.main-card2 {
+    background: rgb(155, 151, 151);
+    height: 650px;
+
+    border-radius: 20px;
+
+    margin-left: 15px;
+}
+
+.nav-1 {
+    height: 80px;
+    width: 330px;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 13px;
+    /* left: 8px; */
+    text-align: center;
+}
+
+h5 {
+    color: rgb(74, 73, 73);
+    word-spacing: 10px;
+}
+
+.music-part {
+    height: 100px;
+    width: 330px;
+    margin-top: 15px;
+    position: relative;
+
+}
+
+.a {
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -5px -5px 12px white;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 19px;
+    left: 8px;
+}
+
+.music-card2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgb(93, 60, 60), -5px -5px 15px white;
+}
+
+.b {
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -5px -5px 12px white;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 19px;
+    left: 269px;
+}
+
+.song-name {
+    height: 340px;
+    width: 330px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+
+
+}
+
+.name {
+    height: 50px;
+    width: 330px;
+    top: 50px;
+    left: 0px;
+    position: absolute;
+}
+
+
+h4 {
+    font-size: 20px;
+    color: rgb(49, 48, 48);
+    padding: 0 0 0 8px;
+    margin-top: 7px;
+
+}
+
+h5 {
+    font-size: 17px;
+    color: rgb(111, 97, 97);
+    padding: 0 0 0 8px;
+
+}
+
+.button {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -3px -3px 9px white;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 9px;
+    left: 280px;
+
+}
+
+.name1 {
+    height: 50px;
+    width: 330px;
+    top: 40px;
+    left: 10px;
+
+
+}
+
+.button1 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -3px -3px 9px white;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 60px;
+    left: 280px;
+
+}
+
+.name2 {
+    height: 50px;
+    width: 330px;
+    border: 2px solid black;
+
+    background: grey;
+    border-radius: 15px;
+    padding-bottom: 2px;
+
+}
+
+.button2 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -3px -3px 9px white;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 109px;
+    left: 280px;
+}
+
+.name3 {
+    height: 50px;
+    width: 330px;
+
+
+
+
+}
+
+.button3 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -3px -3px 9px white;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 160px;
+    left: 280px;
+}
+
+.name4 {
+    height: 50px;
+    width: 330px;
+
+
+
+
+}
+
+.button4 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -3px -3px 9px white;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 211px;
+    left: 280px;
+}
+
+.name5 {
+    height: 50px;
+    width: 330px;
+
+
+
+
+}
+
+.button5 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -3px -3px 9px white;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 261px;
+    left: 280px;
+}
+
+.name6 {
+    height: 50px;
+    width: 330px;
+
+
+
+
+}
+
+.button6 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid rgb(147, 107, 107);
+    border-radius: 50%;
+    background: rgb(143, 147, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 12px black, -3px -3px 9px white;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 312px;
+    left: 280px;
+}

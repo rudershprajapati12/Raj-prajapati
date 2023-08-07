@@ -1,0 +1,267 @@
+@media (max-width:1200px)
+{
+    .main .page,.logo,.icon{
+        display: none;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .respo{
+        display: block;
+        background: rgba(0 0 0 .5);
+    }
+    header{
+       height: 750px;
+        background-position: center;
+        background-size: cover;
+    }
+    .slide
+    
+    .abc{
+        font-size: 20px;
+        left: 100px;
+    }
+    .slide h1{
+        font-size: 25px;
+        top: 200px;
+        left: 80px;
+    }
+    .slide .ab{
+        font-size: 20px;
+        left: 30px;
+        top: 250px;
+        text-align: center;
+    }
+    .slide .btn{
+        display: block;
+        left: 100px;
+    }
+    .slide .btn1{
+        display: block;
+        left: 100px;
+        top: 550px;
+    }
+    .slide2 .imgz{
+        display: none;
+    }
+    .slide2{
+        width: 100%;
+       
+        /* display: block;
+        transform: translate(0,70px); */
+    }
+    .slide2 .text .h4{
+        
+        width: 100%; 
+        color: #ca0010;
+}
+.slide2 .text {
+    width: 100%;
+    
+
+}
+.slide2 .text h2{
+    font-size: 30px;
+    
+}
+.slide2 .text p{
+    font-size: 16px;
+    display: flex;
+    width: 80%;
+}
+.slide3 .info{
+    width: 50%;
+}
+.slide3 .info1{
+    width: 50%;
+}
+.slide3 .info2{
+    width: 50%;
+
+}
+.slide3 .info3{
+    width: 50%;
+}
+
+.slide4 .servi .part1{
+    display: none;
+}
+.slide4 .premium h1{
+    font-size: 30px;
+}
+.slide4 .premium p{
+    font-size: 16px;
+}
+.slide4 .servi .part2{
+    width: 100%;
+    padding: 20px;
+}
+
+.slide4{
+    margin-top: 20px;
+}
+.car4 .sedan {
+    width: 50%;
+}
+.car4 .pickup{
+    width: 50%;
+}
+.car4 .suv{
+    width: 50%;
+}
+.car4 .mini{
+    width: 50%;
+}
+
+.slide6 .express{
+    width: 100%;
+    
+}
+.slide6 .basic1{
+    width: 100%;
+    padding-top: 30px;
+}
+.slide6 .premium2{
+    width: 100%;
+    padding-top: 30px;
+
+}
+.slide6 .full3{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.slide7 .before{
+    display: none;
+}
+.slide7 .after{
+    display: none;
+}
+.slide7 .part2 .taxx{
+    width: 100%;
+    margin-top: 90px;
+}
+.slide7 .part2 .taxx h1{
+    font-size: 30px;
+    color: white;
+}
+.slide7 .part2 .imgm{
+    width: 100%;
+    margin-top: 30px;
+    height: 300px;
+}
+.slide7 .secd1{
+    width: 100%;
+}
+.slide7 .secd2{
+    width: 100%;
+    margin-top: 40px;
+}
+.slide7 .secd3{
+    width: 100%;
+    margin-top: 40px;
+}
+.card{
+    width: 100%;
+}
+.slide8 h2{
+    width: 100%;
+    font-size: 30px;
+}
+.slide8 .jnow{
+    margin-left: 50px;
+    margin-top: 50px;
+    /* width: 100%; */
+}
+.slide9 .wasar{
+    display: none;
+}
+.slide9 .location{
+    width: 100%;
+}
+.slide9 .wash{
+    width: 100%;
+}
+.slide10{
+    background-size: cover;
+    height: 650px;
+}
+.slide10 .client .carl{
+    padding-top: 30%;
+}
+.slide10 h1{
+    font-size: 35px;
+}
+.slide10 p{
+    font-size: 20px;
+}
+.slide11 .ollis{
+    width: 50%;
+}
+.slide11 .queen{
+    width: 50%;
+}
+.slide11 .style{
+    width: 50%;
+}
+.slide11 .archi{
+    width: 50%;
+    /* background-size: 100%; */
+}
+.slide11 .narjala{
+    width: 50%;
+}
+.slide11 .studio{
+    width: 50%;
+}
+.slide12 .tyre{
+    width: 100%;
+    margin-top: 0%;
+    padding-top: 70%;
+}
+.slide12 .oil{
+    width: 100%;
+    padding-top: 70%;
+    margin-top: 50%;
+}
+.slide12 .brake{
+    width: 100%;
+    padding-top: 70%;
+    margin-top: 50%;
+}
+.slide12 .liq{
+    width: 100%;
+    padding-top: 70%;
+    margin-top: 50%;
+}
+.last .last1{
+    margin-top: 420%;
+}
+.footer{
+    margin-top: 400%;
+    background-size: cover;
+}
+.footer{
+    background-size: cover;
+    height: 1000px;
+}
+.footer .call1{
+    width: 100%;
+}
+.footer .lock{
+    width: 100%;
+}
+.footer .email{
+    width: 100%;
+}
+.footer .clock{
+    width: 100%;
+}
+.footer .trans{
+    margin-top: 127%;
+}
+.footer .log{
+    font-size: 16px;
+    padding-top: 30%;
+}
+}

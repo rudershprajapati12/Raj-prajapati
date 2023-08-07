@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+        
+        .a
+        {
+            height: 300px;
+            width: 300px;
+            background: gray;
+            margin: 150px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            transition: 1s;
+            border-radius: 50%;
+            /* animation: raj 1s linear infinite; */
+            overflow: hidden;
+        }
+        .b::before{
+            content: "";
+            height: 500px;
+            width: 500px;
+            position: absolute;
+            background: linear-gradient(green,blue,lightcoral,white,aqua);
+               animation: raj 1s linear infinite;
+               border-radius: 50%;
+               transition: 1s;
+         
+
+        }
+        .b::after{
+            content: "";
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            /* background: linear-gradient(green,blue,lightcoral,white,aqua); */
+            z-index: 1;
+            border-radius: 50%;
+            background: linear-gradient(lightblue,lightcoral,yellow,red);
+            animation: raj 1s linear infinite;
+            transition: 1s;
+        }
+        .b{
+            
+          
+            height: 250px;
+            width: 250px;
+            background: rgb(113, 19, 19);
+            margin: 150px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            transition: 1s;
+            border-radius: 50%;
+            /* animation: raj 1s linear infinite; */
+            overflow: hidden;  
+        }
+        .a::before{
+            content: "";
+            height: 500px;
+            width: 500px;
+            position: absolute;
+            background: linear-gradient(blue,red,coral,green,yellow,lightblue);
+               animation: raj 1s linear infinite;
+               border-radius: 50%;
+               transition: 1s;
+         
+
+        }
+        .a::after{
+            content: "";
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            background:linear-gradient(red,blue);
+            animation: raj 1s linear infinite;
+            border-radius: 50%;
+            transition: 1s;
+            
+            /* transform: translate(50px,50px); */
+        }
+
+        /* @keyframes raj{
+            0%{
+                transform: rotate(0deg);
+            }
+             100%{
+                transform: rotate(360deg);
+            }
+        } */
+        
+        @keyframes raj{
+            50%{
+                transform: rotate(360deg);
+            }
+             50%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"></div>
+    </div>
+</body>
+</html>
