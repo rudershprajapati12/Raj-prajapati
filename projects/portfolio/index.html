@@ -1,210 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-        crossorigin="anonymous" />
-
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
-
 <body>
+    <!-- header section -->
 
-
-    <div class="container">
-       
-
-        <div class="menu">
-            <a href="#welcome-section" class="menu-icon fas fa-home"></a>
-            <a href="#about" class="menu-icon fas fa-user"></a>
-            <a href="#projects" class="menu-icon fas fa-code"></a>
-            <a href="#experience" class="menu-icon fas fa-briefcase"></a>
-            <a href="#contact" class="menu-icon fas fa-envelope"></a>
-        </div>
-
-
-        <div class="portfolio">
-          
-
-            <section class="header">
-                <img class="header-img" src="./images/IMG_20221129_204707_508.jpg" alt />
-                <h1>Prajapati Rudresh</h1>
-                <h2>Frontend Developer</h2>
-                <div class="socials">
-
-                    <a href="tel:7285096910" target="_blank"><i class="fas fa-phone-alt"></i></a>
-                    <a href="https://github.com/rudershprajapati12" target="_blank" class="fab fa-github"></a>
-                    <a href="https://www.instagram.com/Prajapati-raj-80/" target="_blank"><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="rudhreshprajapati2162002@gmail.com" target="_blank" class="fas fa-envelope"></a>
-
-
+    <header>
+        <a href="#" class="logo">devlo <span>pe</span>r....</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About </a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <!-- Home section -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">i'm</span>
+                <h1>Raj prajapati</h1>
+                <h3>Website <span>Designer.</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Quae, dolores?</p>
+                <div class="button">
+                    <a href="#" class="btn">About Me</a>
                 </div>
-                <!-- <a href="" class="cta" download="my">DownIoad CV</a> -->
-                <!-- <a href ></a> -->
-            </section>
-
-        
-
-            <div class="content">
-            
-
-                <section class="content-card home" id="welcome-section">
-                    <h1 class="a1">Hello, I am Prajapti Rudresh</h1>
-                </section>
-
-
-                <section class="content-card about" id="about">
-                    <h1>About me</h1>
-                    <div class="about-item about-me">
-                        <p>
-                            My name is Rudresh Prajapati, and I am a skilled web designer specializing in HTML, CSS,
-                            JavaScript, jQuery, and Bootstrap. With a passion for creating visually appealing and
-                            user-friendly websites, I strive to bring innovative and engaging designs to life. With a
-                            keen eye for detail and a commitment to delivering high-quality work, I am dedicated to
-                            crafting seamless online experiences that leave a lasting impact. Let's collaborate to bring
-                            your web design visions to reality!
-                        </p>
-
-                    </div>
-                    <div class="col-2">
-                        <div class="about-item skills">
-                            <h1>Skills</h1>
-                            <div class="language">
-                                <p>HTML</p>
-                                <span class="bar"><span class="HTML"></span></span>
-                            </div>
-                            <div class="language">
-                                <p>CSS</p>
-                                <span class="bar"><span class="CSS"></span></span>
-                            </div>
-                        
-
-                        </div>
-
-                        <div class="about-item languages">
-                            <h1>Languages</h1>
-                            <div class="language">
-                                <p>Gujrati</p>
-                                <span class="bar"><span class="Gujrati"></span></span>
-                            </div>
-                            <div class="language">
-                                <p>Hindi</p>
-                                <span class="bar"><span class="Hindi"></span></span>
-                            </div>
-                            <div class="language">
-                                <p>English</p>
-                                <span class="bar"><span class="English"></span></span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-              
-
-                <section class="content-card projects" id="projects">
-                    <h1>Projects</h1>
-                    <div class="col-2 project-list">
-                        <div class="project-tile">
-                            <img src="./images/best-wordpress-car-wash-themes-1.webp" alt />
-                            <div class="overlay">
-                                <div class="project-description">
-                                    <!-- <h3>Project 1</h3> -->
-                                    <h3>Car washing & Booking System  using flex</h3>
-
-                                </div>
-                            </div>
-                        </div>
-                      <a href="envato market/index.html"><div class="project-tile">
-                        <img src="./images/Screenshot (14).png " alt />
-                            <div class="overlay">
-                                <div class="project-description">
-                                    <!-- <h3>Project 2</h3> -->
-                                    <h3>Luxery Drive <br> using grid</h3>
-
-                                </div>
-                            </div>
-                        </div></a>
-                  
-                     
-                    </div>
-                    <a href="https://github.com/rudershprajapati12">see more...</a>
-                </section>
-
-         
-
-                <section class="content-card experience" id="experience">
-                    <h1>EDUCATION</h1>
-                    <div class="timeline">
-                        <div class="timeline-items">
-                            <div class="timeline-item">
-                                <div class="timeline-date">2017-2019</div>
-                                <div class="timeline-content">
-                                    <h3>H.S.C & S.S.C</h3>
-                                    <p>
-                                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae pariatur architecto eaque fugit quam ipsa eos incidunt ratione nobis culpa atque illo, qui tempora rerum! Neque odit esse assumenda tempore?
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-date">2022</div>
-                                <div class="timeline-content">
-                                    <h3>College...</h3>
-                                    <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea unde praesentium obcaecati similique molestias, nam fuga inventore laudantium quasi! Dolor ea iste perferendis reprehenderit ad consectetur enim doloribus corrupti consequatur.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="timeline-item">
-                                <div class="timeline-date">2023</div>
-                                <div class="timeline-content">
-                                    <h3>Training...</h3>
-                                    <p>
-                                        Lorem ipsum dolor sit, amet
-                                        consectetur adipisicing elit.
-                                        Ab iusto accusantium nostrum
-                                        eligendi debitis quisquam.
-                                        Corporis at voluptatem culpa
-                                        officia.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="content-card contact" id="contact">
-                    <h1>Contact</h1>
-                    <form class="form" id="form" action="">
-                        <div class="input-box">
-                            <input type="text" class="text-input" name="name" placeholder="Name" />
-                        </div>
-                        <div class="input-box">
-                            <input type="email" class="text-input" name="email" id="email" placeholder="Email" />
-                        </div>
-                        <div class="input-box">
-                            <input type="subject" class="text-input" name="subject" id="subject"
-                                placeholder="Subject" />
-                        </div>
-                        <div class="input-box">
-                            <textarea name="text" class="message" placeholder="Message..."></textarea>
-                        </div>
-                        <div class="input-box">
-                            <input type="submit" class="submit-btn" id="submit" value="submit" />
-                        </div>
-                    </form>
-                </section>
             </div>
         </div>
-    </div>
-</body>
+    </section>
 
+    <!-- about section -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/images1.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Website Designer!</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consequuntur officia facilis deserunt vel deleniti et? Ea aut, voluptatibus quos exercitationem consequuntur inventore voluptate perferendis corporis et officia eaque architecto!</p>
+            <a href="#" class="btn">More About</a>
+
+        </div>
+    </section>
+
+    <!-- services section -->
+
+    <section class="services" id="services">
+        <div class="main-text">
+            <h2><span>My</span>Services</h2>
+            <div class="services-content">
+                <div class="box">
+                    <div class="s-icons">
+                        <i class='bx bx-mobile-alt'></i>
+                        <h3>Web Design</h3>
+                        <p>one way to categories the activities is in terms of the professional's area of experiance such as competitive analysis,corporate stragety. </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="s-icons">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Web Design</h3>
+                        <p>one way to categories the activities is in terms of the professional's area of experiance such as competitive analysis,corporate stragety. </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                   
+                    </div>
+                    <div class="box">
+                        <div class="s-icons">
+                            <i class='bx bx-edit-alt'></i>
+                            <h3>Web Design</h3>
+                            <p>one way to categories the activities is in terms of the professional's area of experiance such as competitive analysis,corporate stragety. </p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- portfolio section -->
+
+    <section class="portfolio" id="portfolio">
+
+        <div class="main-text">
+            <h2><span>latest</span>Projects</h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="./images/project1.jpg" alt="">
+                <div class="layer">
+                    <h5>Flex Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, impedit!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/project2.jpg" alt="">
+                <div class="layer">
+                    <h5>grid Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, impedit!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/project3.jpg" alt="">
+                <div class="layer">
+                    <h5>boostrap Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, impedit!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/project4.jpg" alt="">
+                <div class="layer">
+                    <h5>portfolio Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, impedit!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/project5.jpg" alt="">
+                <div class="layer">
+                    <h5>psd-file Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, impedit!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/project6.jpg" alt="">
+                <div class="layer">
+                    <h5>figma Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, impedit!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- contact section -->
+
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me!</span></h2>
+            <h4>If you have any projects in your mind.</h4>
+            <p>I'm a website designer -creating bold & brave interface design for compaines all across the world.</p>
+            <div class="list">
+                <li><a href="#">0123456789</a></li>
+                <li><a href="#">rudhresh2162002@gmail.com</a></li>
+
+            </div>
+            <div class="contact-icon">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+           
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="number" placeholder="Enter Your Number " required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How can i help you" required></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+            </form>
+        </div>
+    </section>
+    <!-- End section -->
+    <section class="end">
+        <div class="last-text">
+            <p>Design portfolio</p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </section>
+</body>
 </html>
