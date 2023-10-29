@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arithmetic Operations</title>
+    <style>
+        body {
+            font-family:  serif;
+        }
+        .container {
+            max-width: 400px;
+            margin:80px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: rgb(189, 178, 178);
+        }
+        h1{
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input {
+            width: 50%;
+            padding: 5px;
+        }
+        button {
+            width: 40px;
+            height: 20px;
+            font-size: 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #result 
+        {
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-group">
+            <h1>Maths Operations</h1>
+            <label for="num1"> 1st number:</label>
+            <input type="number" id="num1" required>
+        </div>
+        <div class="form-group">
+            <label for="num2"> 2nd number:</label>
+            <input type="number" id="num2" required>
+        </div>
+        <div class="btn-container">
+            <button onclick="add()">+</button>
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">*</button><br><br>
+            <button onclick="devide()">/</button>
+            <button onclick="modulo()">%</button>
+            <button onclick="equal()">=</button>
+        </div><br><br>
+
+    <label >Answer is:</label><div id="result"></div>
+    </div>
+
+    <script>
+        function add() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+            const result = num1 + num2;
+            document.getElementById("result").textContent = `${result}`;
+        }
+
+        function subtract() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+            const result = num1 - num2;
+            document.getElementById("result").textContent = `${result}`;
+        }
+
+        function multiply() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+            const result = num1 * num2;
+            document.getElementById("result").textContent = `${result}`;
+        }
+
+        function devide() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+            if (num2 === 0) {
+                document.getElementById("result").textContent = "Error: Cannot divide by zero!";
+            } else {
+                const result = num1 / num2;
+                document.getElementById("result").textContent = `${result}`;
+            }
+        }
+
+        function modulo() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+            if (num2 === 0) {
+                displayError("Error: Cannot perform modulo with zero!");
+            } else {
+                const result = num1 % num2;
+                displayResult(result);
+            }
+        }
+        function equal() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+            if (num2 === 0) {
+                displayError("Error: Cannot perform modulo with zero!");
+            } else {
+                const result = num1 = num2;
+                displayResult(result);
+            }
+        }
+
+        function displayResult(result) 
+        {
+            document.getElementById("result").textContent = `${result}`;
+        }
+    </script>
+</body>
+</html>

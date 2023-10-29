@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Field with Show/Hide</title>
+    <style>
+        .password{
+            height: 100px;
+            width: 500px;
+            font-size: 20px;
+            padding: 20px;
+            background-color: rgb(112, 38, 168);
+        }
+        .enter-pass
+        {
+            margin: 20px 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="password">
+        <div class="enter-pass">
+            <label>Enter Password:</label>
+            <input type="password" id="password" class="password-input">
+        </div>
+        <div class="show-pass">
+            <input type="checkbox" id="showPassword">
+            <label>Show Password</label>
+        </div>
+
+    </div>
+
+    <script>
+        var passwordInput = document.getElementById('password');
+        var showPasswordCheckbox = document.getElementById('showPassword');
+
+        showPasswordCheckbox.addEventListener('change', function () {
+            if (showPasswordCheckbox.checked) {
+                passwordInput.type = 'text';
+            } else {
+                passwordInput.type = 'password';
+            }
+        });
+    </script>
+</body>
+</html>

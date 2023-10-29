@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .main
+    {
+        height: 400px;
+        width:100%;
+        position: relative;
+    }
+
+    .div1
+    {
+        height: 200px;
+        width: 200px;
+        border: 3px solid;
+        position: absolute;
+        top: 20%;
+        left: 5%;
+    } 
+    .div2
+    {
+        height: 200px;
+        width: 200px;
+        border: 3px solid;
+        position: absolute;
+        top: 20%;
+        left: 22%;
+    } 
+    .div3
+    {
+        height: 300px;
+        width: 300px;
+        border: 3px solid;
+        position: absolute;
+        top: 13%;
+        left: 40%;
+    }
+    .div4
+    {
+        height: 200px;
+        width: 200px;
+        border: 3px solid;
+        position: absolute;
+        top: 20%;
+        left: 65%;
+    } 
+    .div5
+    {
+        height: 200px;
+        width: 200px;
+        border: 3px solid;
+        position: absolute;
+        top: 20%;
+        left:82%;
+    } 
+    #btn1
+    {
+        height: 50px;
+        width: 50px;
+        border: 2px solid;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        font-size: 25px;
+    }
+    #btn2
+    {
+        height: 50px;
+        width: 50px;
+        border: 2px solid;
+        position: absolute;
+        top:40%;
+        right: 0;
+        font-size: 25px;
+    }
+    
+</style>
+
+</head>
+
+<body>
+
+    <div class="main">
+
+
+   <div class="div1"> <img src="./images/image9.avif" alt="" height="100%" width="100%" id="img1"> </div>
+   <div class="div2"><img src="./images/image10.avif" alt="" height="100%" width="100%" id="img2"></div>
+   <div class="div3"><img src="./images/image19.avif" alt="" height="100%" width="100%" id="img3"></div>
+   <div class="div4"><img src="./images/image4.avif" alt="" height="100%" width="100%" id="img4"></div>
+   <div class="div5"><img src="./images/image6.avif" alt="" height="100%" width="100%" id="img5"></div>
+
+       <button id="btn1" onclick="bgleft()"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+       <button id="btn2" onclick="bgright()"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+
+    </div>
+
+
+<script>
+
+
+    img1 = document.getElementById("img1");
+    img2 = document.getElementById("img2");
+    img3 = document.getElementById("img3");
+    img4 = document.getElementById("img4");
+    img5 = document.getElementById("img5");
+  btnright=document.getElementById('btnright');
+  btnleft=document.getElementById('btnleft');
+
+
+
+function  bgleft()
+{
+   if(img1.src.match("./images/image9.avif"))
+{
+    img1.src="./images/image10.avif"
+    img2.src="./images/image19.avif"
+    img3.src="./images/image4.avif"
+    img4.src="./images/image6.avif"
+    img5.src="./images/image9.avif"
+
+}
+
+else if(img1.src.match("./images/image10.avif"))
+{
+    img1.src="./images/image19.avif"
+    img2.src="./images/image4.avif"
+    img3.src="./images/image6.avif"
+    img4.src="./images/image9.avif"
+    img5.src="./images/image10.avif"
+}
+
+else if(img1.src.match("./images/image19.avif"))
+{
+    img1.src="./images/image4.avif"
+    img2.src="./images/image6.avif"
+    img3.src="./images/image9.avif"
+    img4.src="./images/image10.avif"
+    img5.src="./images/image19.avif"
+}
+
+else if(img1.src.match("./images/image4.avif"))
+{
+    img1.src="./images/image6.avif"
+    img2.src="./images/image9.avif"
+    img3.src="./images/image10.avif"
+    img4.src="./images/image19.avif"
+    img5.src="./images/image4.avif"
+}
+
+else if(img1.src.match("./images/image6.avif"))
+{
+    img1.src="./images/image9.avif"
+    img2.src="./images/image10.avif"
+    img3.src="./images/image19.avif"
+    img4.src="./images/image4.avif"
+    img5.src="./images/image6.avif"
+}
+}
+
+function bgright()
+{
+
+    if(img1.src.match("./images/image9.avif"))
+   {
+    img1.src="./images/image6.avif"
+    img2.src="./images/image9.avif"
+    img3.src="./images/image10.avif"
+    img4.src="./images/image19.avif"
+    img5.src="./images/image4.avif"
+   }
+
+   else if(img1.src.match("./images/image6.avif"))
+   {
+    img1.src="./images/image4.avif"
+    img2.src="./images/image6.avif"
+    img3.src="./images/image9.avif"
+    img4.src="./images/image10.avif"
+    img5.src="./images/image19.avif"
+   }
+
+   else if(img1.src.match("./images/image4.avif"))
+   {
+    img1.src="./images/image19.avif"
+    img2.src="./images/image4.avif"
+    img3.src="./images/image6.avif"
+    img4.src="./images/image9.avif"
+    img5.src="./images/image10.avif"
+   }
+
+   else if(img1.src.match("./images/image19.avif"))
+   {
+    img1.src="./images/image10.avif"
+    img2.src="./images/image19.avif"
+    img3.src="./images/image4.avif"
+    img4.src="./images/image6.avif"
+    img5.src="./images/image9.avif"
+   }
+
+   else if(img1.src.match("./images/image10.avif"))
+   {
+    img1.src="./images/image9.avif"
+    img2.src="./images/image10.avif"
+    img3.src="./images/image19.avif"
+    img4.src="./images/image4.avif"
+    img5.src="./images/image6.avif"
+   }
+    
+}
+</script>
+
+
+
+</body>
+
+
+</html>
