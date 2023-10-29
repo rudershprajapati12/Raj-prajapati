@@ -5,31 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+  
 </head>
 <body>
     <div class="container">
         <form  onsubmit="return validate()">
             First Name: <input type="text" placeholder="Enter your first name" class="fn"><br><br>
+
+
             Last Name: <input type="text" placeholder="Enter your last name" class="ln"><br><br>
+
+
             Email: <input type="text" placeholder="it should contain @.." class="em"><br><br>
+
+
             Mobile: <input type="text" placeholder="only 10 digits are allowed" class="mb"><br><br>
+
+
             Gender: <input type="radio" name="gender" class="male"> Male <input type="radio" name="gender" class="female"> Female <br><br>
+
             Date of Birth: <input type="date" class="date"><br><br>
+
             Address: <textarea cols="30" rows="10" class="txt"></textarea><br><br>
+
             City: <input type="text" class="city"><br><br>
+
             Area PIN: <input type="text" class="pin"><br><br>
+
             State: <input type="text" class="state"><br><br>
+
             Qualification: <select class="deg">
                 <option hidden>Select Qualification:</option>
                 <option >Under-Graduate</option>
                 <option >Graduate</option>
                 <option >Post-Graduate</option>
             </select> <br><br>
-            Specialization: <input type="checkbox" class="cs mycheck"> Computer Science <br>
-            <input type="checkbox" class="it mycheck"> Information Technology <br>
-            <input type="checkbox" class="ca mycheck"> Computer Architecture <br>
-            <input type="checkbox" class="tc mycheck"> Tele Communication <br><br>
+
+
+            Specialization: <input type="checkbox" class="cs mycheck"> frontend devloper <br>
+            <input type="checkbox" class="it mycheck"> backend devloper <br>
+            <input type="checkbox" class="ca mycheck"> web designer <br>
+            <input type="checkbox" class="tc mycheck"> graphic designer <br><br>
             Password: <input type="password" class="pwd"> <br><br>
             <input type="submit" value="Registered" class="btn">
         </form>

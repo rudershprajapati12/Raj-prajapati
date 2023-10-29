@@ -69,7 +69,7 @@ var isChecked = false;
     }
   }
 
-  // Show alert if no radio button is selected
+  
   if (!isChecked) {
     alert("Please select the gender");
     return false;
