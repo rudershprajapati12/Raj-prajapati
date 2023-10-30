@@ -1,0 +1,52 @@
+@media (max-width: 500px) {
+  .main-furn .navbar .icon {
+    width: 100%;
+    padding-left: 70px;
+    display: none;
+  }
+  .main-furn .navbar .logo {
+    width: 100%;
+    border: 1px dashed;
+  }
+  .main-furn .navbar .link {
+    width: 100%;
+    display: none;
+  }
+
+  .main-furn .main-bg .info {
+    transform: translate(0%, 50%);
+    width: 100%;
+  }
+  .main-gal .gal-photo {
+    grid-template-columns: 1fr;
+  }
+  .proudct .prd-items {
+    grid-template-columns: 1fr;
+  }
+  .proudct .prd-items .prd-item {
+    margin: 10px 40px;
+  }
+  .main-room .room-text,
+  .room1,
+  .room2 {
+    width: 100%;
+  }
+  .main-room .room1 {
+    width: 100%;
+  }
+  .main-room .room1 .shape {
+    top: 300px;
+  }
+  .furniture .furniture-img .furniture-img1 {
+    width: 100%;
+  }
+  .furniture .furniture-img .furniture-img2 {
+    width: 100%;
+  }
+  .furniture .furniture-img .furniture-img3 {
+    width: 100%;
+  }
+  .main-footer {
+    grid-template-columns: 1fr;
+  }
+}

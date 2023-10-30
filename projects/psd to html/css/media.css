@@ -1,0 +1,94 @@
+@media (max-width: 700px) {
+  .main-header .navbar1 {
+    display: none;
+  }
+  .main-header .navbar2 {
+    display: flex;
+  }
+  .main-header .img-top {
+    background-size: cover;
+  }
+  .main-header .img-top .img-text .text {
+    font-size: 40px;
+    text-align: center;
+  }
+  .main-header .img-top .img-text .btn-text {
+    margin: 40px 50px;
+  }
+  .main-about .about-img {
+    width: 100%;
+  }
+  .main-about .about-text {
+    width: 100%;
+  }
+  .main-service .item {
+    width: 50%;
+  }
+  .main-service .item,
+.i-img2,
+.i-img3,
+.i-img4 {
+  width: 100%;
+  margin: 0 20px;
+}
+.main-service .item .shape .service-text {
+  font-size: 25px;
+  left: -30px;
+  top: 55px;
+}
+  .main-star .star-text {
+    width: 100%;
+  }
+  .main-star .star-img {
+    width: 100%;
+    margin: 0px 0px;
+  }
+  .main-star .star-text .p-text {
+    margin: 0px;
+  }
+  .main-star .star-text .s-icon {
+    margin: -70px 0 0 250px;
+  }
+  .main-furni .furni-item,
+  .f-img2,
+  .f-img3 {
+    width: 100%;
+  }
+  .main-contact {
+    padding: 0px;
+  }
+  .main-contact .head .head-text {
+    width: 100%;
+  }
+  .main-contact .head .head-btn {
+    width: 100%;
+  }
+  .main-contact .head .head-btn .button4 {
+    margin:0px;
+  }
+  .main-form{
+    margin-top: 1250px;
+    padding: 10px;
+  }
+  .main-form .form-middle .form-quetion{
+    width: 100%;
+  }
+  .main-form .form-middle .form-fill{
+    width: 100%;
+  }
+  .main-floor{
+    background-size: cover;
+  }
+  .main-floor .floor-text .button6{
+    margin:20px;
+  }
+  .main-footer .footer-top .foot-list{
+    width: 100%;
+  }
+  .main-footer .footer-bottom .foot-copy{
+    width: 100%;
+  }
+  .main-footer .footer-bottom .foot-icons{
+    width: 100%;
+  }
+}
