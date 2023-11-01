@@ -11,7 +11,7 @@
             padding: 40px;
             border: 1px solid rgb(155, 99, 99);
             margin: 66px auto;
-            background-color: rgb(172, 17, 17);
+            background-color: rgba(172, 17, 17, 0.824);
             color: white; 
         }
           
@@ -53,18 +53,18 @@
 <body> 
     <div class="form">
         <input type="text" id="i1" value="" placeholder="add one......">
-        <button onclick="test()">Add</button>
+        <button onclick="task()">Add</button>
    
         <ul id="list">
         </ul>
     </div>
     <script>
-        function test() {
+        function task() {
             var inputField = document.getElementById('i1');
             var list = document.getElementById('list');
     
             if (inputField.value === "") {
-                alert("Please write ......");
+                alert(" write ......");
             } else {
                 var task = document.createElement('li');
                 task.innerHTML=inputField.value;
