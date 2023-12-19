@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* home section start */
+
 .main-part {
     /* height: 60px; */
     width: 100%;
@@ -98,6 +100,8 @@
 
 
 }
+ /* home section end */
+ /* section 1 stART */
 
 
 .img {
@@ -168,6 +172,8 @@
 
 
 }
+ /* SECTION 1 END */
+  /* SECTION 2 START */
 
 .info {
 
@@ -432,6 +438,10 @@
 }
 
 
+ /* SECTION 2 END */
+  /* SECTION 3 START */
+
+
 
 .slide-3 {
     /* height: 900px; */
@@ -522,7 +532,8 @@
 .slide-3 .sec-3 .img17:hover {
     background-size: 102%;
 }
-
+/* SECTION 3 END */
+ /* SECTION 4 START */
 
 .info-2 {
 
@@ -625,6 +636,8 @@
 
 
 }
+    /* SECTION 4 END */
+     /* SECTION 5 START */
 
 
 
@@ -750,6 +763,9 @@
 .human .round:hover {
     transform: scale(1.3)
 }
+ /* SECTION 5 END */
+
+  /* SECTION 6 START */
 
 .head {
     height: 150px;
@@ -847,6 +863,10 @@
     /* background-size: 100%; */
 }
 
+   /* SECTION 6 END */
+
+   /* SECTION 7 START */
+
 .client {
     height: 200px;
     width: 80%;
@@ -926,6 +946,9 @@ a {
     word-spacing: 5px;
 }
 
+/* SECTION 7 END */
+ /* SECTION 8 START */
+
 .car9 {
     height: 600px;
     width: 90%;
@@ -983,6 +1006,10 @@ a {
     color: gray;
 }
 
+/* SECTION 8 END */
+
+/* SECTION 9 START */
+
 .que {
     height: 150px;
     width: 80%;
@@ -1038,7 +1065,8 @@ a {
 .visit h3:hover i {
     display: none;
 }
-
+/* SECTION 9 END */
+/* SECTION 10 START */
 
 .part34 {
     height: 500px;
@@ -1127,6 +1155,10 @@ a {
     font-size: 20px;
 }
 
+/* SECTION 10 END */
+
+/* FOOTER START */
+
 .foot {
     height: 300px;
     width: 80%;
@@ -1214,3 +1246,5 @@ a {
         margin-left: 130px; */
     margin: 20px 130px;
 }
+
+/* FOOTER END */

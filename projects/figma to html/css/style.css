@@ -1,9 +1,11 @@
+ 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+ /* home section start */
 .main-furn .navbar {
   display: flex;
   flex-wrap: wrap;
@@ -74,7 +76,8 @@
   border: none;
   margin-top: 25px;
 }
-/* gallary start */
+/* home section end */
+/* section 1 start */
 .main-gal {
   text-align: center;
 }
@@ -98,7 +101,8 @@
   font-size: 24px;
   padding: 10px;
 }
-
+/* section 1 end  */
+/* section 2 start */
 .proudct {
   margin: 0 50px;
   text-align: center;
@@ -153,8 +157,8 @@
   color: #b88e2f;
   margin: 50px;
 }
-/* product end */
-/* room start */
+/* section 2 end */
+/* section 3 start */
 .main-room {
   display: flex;
   flex-wrap: wrap;
@@ -207,8 +211,8 @@
   border-radius: 50%;
   outline-offset: 4px;
 }
-/* room end */
-/* furniture start */
+/* section 3 end */
+/* section 4 start */
 .furniture {
   text-align: center;
 }
@@ -315,7 +319,7 @@
   background: url(../image/Rectangle\ 9.png);
   background-size: cover;
 }
-/* furniture end */
+/* section 4 end */
 /* footer start */
 .main-footer {
   border-top: 1px solid #898989;

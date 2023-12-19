@@ -6,6 +6,11 @@
 body{
     overflow-x: hidden;
 }
+
+
+/* HEADER START */
+
+
 header{
     height: 800px;
     width: 100%;
@@ -259,6 +264,11 @@ header{
    
 } */
 
+
+
+/* HEADER END */
+
+/* HOME SECTION 1 START */
 .respo{
     height: 100px;
     width: 100%;
@@ -377,7 +387,11 @@ header{
     width: 0%;
     
    }
+/* HOME SECTION  END */
 
+
+
+   /* SECTION 1 START */
 
 
 .slide2{
@@ -459,7 +473,10 @@ header{
     
    }
 
+/* SECTION 1 END */
 
+
+/* SECTION 2 START */
 
  .slide3{
     /* height: 400px; */
@@ -545,6 +562,10 @@ header{
   font-size: 25px;
 
 }
+
+/* SECTION 2 END */
+
+/* SECTION 3 START */
 
 .slide4{
     /* height: 1000px; */
@@ -646,6 +667,10 @@ header{
     width: 0%;
     
    }
+/* 
+   SECTION 3 END */
+
+   /* SECTION 4 START */
 
    .slide5{
     height: 300px;
@@ -772,6 +797,10 @@ header{
     padding-left: 6%;
     padding-top: 10px;
    }
+
+   /* SECTION 4 END */
+
+   /* SECTION 5 START */
 
    .slide6{
     /* height: 400px; */
@@ -1026,6 +1055,11 @@ header{
    .slide6 i{
     color: green;
    }
+/* 
+   SECTION 5 END */
+
+
+   /* SECTION 6 START */
 
    .slide7{
     /* height: 1000px; */
@@ -1145,6 +1179,12 @@ header{
         color: white;
    }
 
+   /* SECTION 6 END */
+
+
+
+   /* SECTION 7 START */
+
    .slide8{
     /* height: 300px; */
     width: 100%;
@@ -1231,6 +1271,12 @@ header{
    .card .card1:hover{
     top: 30px;
    }
+
+   /* SECTION 7 END */
+
+
+
+   /* SECTION 8 START */
 
    .slide9{
     /* height: 500px; */
@@ -1336,6 +1382,11 @@ header{
     color: white;
    }
 
+   /* SECTION 8 END */
+
+
+   /* SECTION 9 START */
+
    .slide10{
     height: 800px;
     width: 100%;
@@ -1386,6 +1437,12 @@ header{
     padding-top: 30px;
     line-height: 0;
    }
+
+
+   /* SECTION 9 END */
+
+
+   /* SECTION 10 START */
 
    .slide11 {
     /* height: 200px; */
@@ -1461,6 +1518,11 @@ header{
    .store h1{
     font-size: 50px;
    }
+
+   /* SECTION 10 END */
+
+
+   /* SECTION 11 START */
 
    .slide12{
     height: 600px;
@@ -1788,6 +1850,11 @@ header{
         
        }
 
+       /* SECTION 11 END */
+
+
+       /* FOOTER START */
+
        .footer{
         /* height: 600px; */
         width: 100%;
@@ -1897,3 +1964,5 @@ header{
        .footer p{
         color: white;
        }
+/* 
+       FOOTER END */
